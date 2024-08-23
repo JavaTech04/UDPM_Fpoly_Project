@@ -1,0 +1,15 @@
+#table-emp > thead > tr > th, #table-emp > tbody > tr > td, #table-emp > tbody > tr > th {
+    background-color: #f8f9fa !important;
+}
+.btn-custom{
+    border-radius: 20px !important;
+}
+.column-layout{
+    display: flex;
+
+}
+.sidebar{
+    flex: 1;
+    margin-right: 10px;
+    min-height: 500px;
+}

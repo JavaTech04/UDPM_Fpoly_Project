@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg bg-light shadow-sm" th:fragment="navbar">
+    <div class="container-fluid">
+        <input type="hidden" readonly id="user_" th:value="${user}">
+        <input type="hidden" readonly id="type_" th:value="${type}">
+        <input type="hidden" readonly id="key_" th:value="${key}">
+        <a class="navbar-brand" href="/">
+            <img src="https://logos-download.com/wp-content/uploads/2016/12/Amazon_Web_Services_logo_AWS.png"
+                 style="width: 100px;" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!--TODO-->
+            </ul>
+            <div class="d-flex align-items-center">
+                <span class="me-2 fw-normal text-dark-emphasis">Nong Hoang Vu</span>
+                <div class="avatar">
+                    <img src="https://res.cloudinary.com/dswqplrdx/image/upload/v1721044915/n5k9h6mfdbkxqwbvmp8q.jpg"
+                         alt="avt" class="rounded-circle" style="width: 35px; height: 35px; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

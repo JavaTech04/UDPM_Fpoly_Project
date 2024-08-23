@@ -1,0 +1,38 @@
+excel:
+  prefix:
+    staffCode: PH33506
+    name: Nong Hoang Vu
+    accountFPT: vunhph33506@fpt.edu.vn
+    accountFE: vunhph33506@fe.edu.vn
+    contentType: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    historyImport: import-history.txt
+app:
+  verify:
+    user: admin
+    type: 0
+    key: Tm9uZyBIb2FuZyBWdQ==
+spring:
+  application:
+    name: StaffManager
+  datasource:
+    url: jdbc:mysql://localhost:3306/exam_distribution_test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: none
+#spring:
+#  datasource:
+#    url: jdbc:sqlserver://localhost;encrypt=true;trustServerCertificate=true;databaseName=
+#    username: sa
+#    password:
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#      ddl-auto: none
