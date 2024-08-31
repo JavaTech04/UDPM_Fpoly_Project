@@ -7,6 +7,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+
 @Repository
 public interface StaffMajorFacilityRepository extends JpaRepository<StaffMajorFacility, String> {
     @Query("FROM StaffMajorFacility WHERE idStaff.id = :id")

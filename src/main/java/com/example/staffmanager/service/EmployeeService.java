@@ -1,7 +1,6 @@
 package com.example.staffmanager.service;
 
 import com.example.staffmanager.model.Staff;
-import com.example.staffmanager.model.StaffMajorFacility;
 
 import java.util.List;
 import java.util.Optional;
